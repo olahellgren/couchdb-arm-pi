@@ -2,6 +2,7 @@
 
 Instructions from: http://www.fanciullimassimiliano.it/2015/02/01/coucbdb-on-a-raspberrypi/
 
+## DON'T DO THIS, YOU'LL TOO NEW ERLANG ##
 Edit the apt servers list:
 `sudo nano /etc/apt/sources.list`
 
@@ -14,6 +15,8 @@ Add the Erlang Solutions public key for apt-secure using following commands:
 
 Update the aptitude repository by running:
 `sudo apt-get update`
+
+## CONTINUE AFTER THIS ##
 
 After updating start installing all needed dependencies:
 
