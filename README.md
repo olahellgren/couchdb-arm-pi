@@ -39,7 +39,7 @@ All the dependencies are now set. Download the source code and unpack it:
 Move inside the unpacked code and configure the package:
 ```
 cd apache-couchdb-1.6.0
-./configure —-prefix=/usr/local —-with-js-lib=/usr/lib —-with-js-include=/usr/include/js —-enable-init
+./configure --prefix=/usr/local --with-js-lib=/usr/lib --with-js-include=/usr/include/js --enable-init
 ```
 
 When finished it is time to build and install CouchDB:
